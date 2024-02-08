@@ -28,12 +28,12 @@ def main():
 
     x_input = input("Enter first number: ")
         if not x_input:
-            print("You didn't enter anything. Please provide a number.")
+            print("This feild cant be left empty. Please provide a number.")
         else:
             x = float(x_input)
     y = float(input("Enter second number: "))
         if not y_input:
-                print("You didn't enter anything. Please provide a number.")
+                print("This feild cant be left empty. Please provide a number.")
             else:
                 y = float(y_input)
 
