@@ -4,7 +4,7 @@ This needs to be added as an alert to the user to know that this feilds cant be 
 
 x = float(input("Enter first number: ")) 
 y = float(input("Enter second number: "))
-  Link: 
+  Link: https://github.com/saranashbat/infs3203/commit/afd1afe0432eceb9adcfeb74787b04cf0d9d3e67#commitcomment-138440719
 
 
 Bug 2: 
