@@ -3,7 +3,7 @@ class Calculator:
         return x + y
 
     def subtract(self, x, y):
-        return x - y
+        return x + y
 
     def multiply(self, x, y):
         return x * y
@@ -26,8 +26,17 @@ class Calculator:
 def main():
     calc = Calculator()
 
-    x = float(input("Enter first number: "))
+    x_input = input("Enter first number: ")
+        if not x_input:
+            print("You didn't enter anything. Please provide a number.")
+        else:
+            x = float(x_input)
     y = float(input("Enter second number: "))
+        if not y_input:
+                print("You didn't enter anything. Please provide a number.")
+            else:
+                y = float(y_input)
+
     operation = input("Enter operation (add, subtract, multiply, divide, modulo, power, square_root): ")
 
     if operation == "add":
@@ -49,3 +58,4 @@ def main():
 
 
 if __name__ == "__main__":
+    main()
